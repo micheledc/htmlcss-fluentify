@@ -1,3 +1,137 @@
 nav{
-  heigh:100px;
+
+  background-color: #0d325a;
+}
+.container{
+  width: 80vw;
+  margin: auto;
+  color: white;
+}
+*{
+  box-sizing:border-box;
+  margin: auto;
+}
+
+/* navbar */
+.navbar{
+  height:100px;
+  display: inline-block;
+  line-height: 100px;
+  width: 100%;
+}
+
+.navbar:after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.navbar-left,.navbar-center,.navbar-right{
+float: left;
+}
+.navbar-left{
+  width: 15%;
+}
+.navbar-center{
+  width: 45%;
+}
+.navbar-right{
+  width: 40%;
+  text-align: right;
+}
+#GREY{
+  color: lightgrey;
+}
+
+.navbar-right:after{
+  display: table;
+  content: "";
+  clear: both;
+
+}
+.ll,.lc,.rc,.rr{
+  float: left;
+  width: 25%;
+  font-size: 15px;
+  text-align: center;
+}
+
+button{
+padding: 2px;
+background-color: green;
+color: white;
+border-style: solid;
+border-color: green;
+}
+
+.section-one{
+  background-color: lightgrey;
+  height: 100px;
+  text-align: center;
+  position: relative;
+}
+
+.centrato{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+h4{
+  color: grey;
+}
+.imgleft>img,.imgcenter>img,.imgright>img{
+  width: 25%;
+}
+.section-two{
+  background-color: white;
+  height: 250px;
+  width: 80vw;
+  position: relative;
+}
+
+.section-two,.section-tree{
+  display: table;
+  content: "";
+  clear: both;
+
+}
+.imgleft,.imgcenter,.imgright{
+  float: left;
+  width: 30%;
+  text-align: center;
+  margin: 1%;
+  }
+.BUTTON{
+  float: left;
+  width: 10%;
+  position: absolute;
+  top: 50%;
+  left:100%;
+  transform: translate(-50%,-50%);
+}
+h3{
+  color: green;
+}
+
+hr{
+  color: grey;
+}
+
+.treleft>img{
+  width: 300px;
+}
+
+.treleft,.treright{
+  float: left;
+  width:50%;
+}
+
+.section-tree{
+  background-color: white;
+  height: 250px;
+  width: 70vw;
+  position: relative;
+  line-height: 250px;
+  text-align: center;
 }
